@@ -1,0 +1,143 @@
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Element Selectors */
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #1e3041;
+  color: #fff;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  margin: 2% 0;
+  font-size: 250%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  display: block;
+
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+section {
+  height: 200px;
+  display: flex;
+  align-items: end;
+  justify-content: right;
+  color: #13293d;
+  background-image: url(../../assets/images/zetong-li.jpg);
+}
+section h1 {
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #4f4846;
+  color: #fdf8f5;
+}
+
+
+/* Class Selectors */
+#card {
+  border: #0a0a0a;
+}
+
+/* id selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+.mainelements {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+  color: #1e3041;
+}
+
+.mainelements img {
+  max-height: 200px;
+}
+
+.mainelements h1 {
+  background-color: #4e6c80;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+/* media */
+
+@media screen and (max-width: 768px) {
+  header,
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1992px) {
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+}
