@@ -47,7 +47,7 @@ nav a:hover {
 }
 
 main {
-  display: block;
+  display: flex;
 
   flex-wrap: wrap;
   flex: 1 1 0;
@@ -76,7 +76,6 @@ footer {
   color: #fdf8f5;
 }
 
-
 /* Class Selectors */
 #card {
   border: #0a0a0a;
@@ -95,14 +94,9 @@ footer {
   padding: 50px;
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  
+
   color: #1e3041;
 }
-
-.mainelements img {
-  max-height: 200px;
-}
-
 .mainelements h1 {
   background-color: #4e6c80;
   margin-bottom: 20px;
