@@ -109,7 +109,7 @@ footer {
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
   background-color: antiquewhite;
-  text-align: center
+  text-align: center;
 }
 .card1 {
   border-style: solid;
@@ -120,11 +120,10 @@ footer {
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
   background-color: antiquewhite;
-  text-align: center
+  text-align: center;
 }
 
 .card header {
-  
   padding: 20px;
 }
 
@@ -137,7 +136,6 @@ footer {
 }
 .card:hover {
   color: #ec7d7d;
-
 }
 /* media */
 
