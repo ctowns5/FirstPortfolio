@@ -5,7 +5,7 @@ This project is my first attempt at building an online portfolio to showcase cod
 
 ## Here is a screenshot of the web page
 
-![picture of the website](./assets/images/pfscreenpic.JPG)
+![picture of the website](./assets/images/portfolioscreenshot.jpg)
 
 ### link to github repository
 
